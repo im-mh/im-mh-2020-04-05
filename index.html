@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>웹코딩3주차</title>
+	<link href="https://fonts.googleapis.com/css?family=Noto+Serif+KR:200,300,400,600,900&display=swap" rel="stylesheet">
+	<style type="text/css">
+
+		html{font-family: 'Noto Serif KR', serif;}
+		body,img, h1, h2, h3, h4, p{margin:0;}
+		img{display: block; width:100%;}
+		header{height: 800px; padding:1px; margin-bottom: 800px}
+		.bg-header{background: url('img1.jpg');
+				background-size: cover;
+				background-attachment: fixed;}
+		.bg-section{background: url('house.jpg');
+				background-size: cover;
+				background-attachment: fixed;
+				height: 550px;}
+		.bg-bottom{background: url('bg.jpg');
+				background-size: cover;
+				background-attachment: scroll;
+				height: 300px;}
+
+		section, footer{margin:auto;}
+		section{margin-bottom: 150px;padding:1px}
+		h1{	margin-top: 170px;margin-bottom: 400px;text-align: center;font-size: 6rem; line-height:1.3;}
+		h2{margin-bottom: 15px; font-size: 3rem}
+		h3{margin-bottom: 15px; font-size: 2rem}
+		p{margin-bottom:15px;font-size: 1.1rem; line-height:170%;font-weight: 300;}
+		footer{height: 200px; background: none;margin-top: 300px;padding: 1px}
+		footer p{margin-top: 150px; text-align: center;font-size: 0.7em;font-weight:200;word-spacing:0px;letter-spacing: 0px}
+		
+
+		.row{	width:800px; margin: auto; height: auto;
+				display: flex; padding: 0px 5px;}
+				/*margin-top: 10px; margin-bottom: 10px;}*/
+		.col-1{	width:190px; margin:0px 5px;}
+		.col-2{	width:390px; margin:0px 5px;}
+		.col-3{	width:590px; margin:0px 5px;}
+		.col-4{	width:790px; margin:0px 5px;}
+		/*img{width: 100%;}*/
+
+		.row2{	width:600px; margin: auto; height:auto;
+				display: flex; padding: 0px 5px;}
+		.col-5{	width:190px; margin:0px 5px; display: inline-block;}
+
+		.word-break{word-break: keep-all}
+		.word-spacing{word-spacing: -1px;letter-spacing: -1px;}
+		.text-white{color:white;}
+		.text-black{color:black;}
+		.text-center{text-align: center;}
+		.text-right{text-align: right;}
+		.h3p{margin-bottom: 50px}
+		
+		a{	display: inline-block;
+			background: url('pattern.jpg');background-size: cover;
+			width: 100px; height: 100px;
+			text-align: center;
+			line-height: 100px;
+			text-decoration: none;
+			font-weight: bold;
+			border-radius:100px;
+			border:1px solid gray;
+			color: white;}
+		a:hover{
+			background:url('pattern1.jpg');background-size: cover;
+			box-shadow: none;
+			color:white;
+			transition: all 0.5s;}
+		
+	</style>
+</head>
+<body>
+	<header class="bg-header">
+			<h1 class="text-white word-spacing">우리 같이<br><span style="color:#003300">햄스터</span>집사<br>할래?</h1>
+			<div class="row">
+				<h2 class="word-spacing">햄스터 집사 가이드</h2>
+			</div>
+			<div class="row">
+				<div class="col-2">
+					<p class="word-break word-spacing">햄스터가 있는 내 방을 환기시킨다며 창문을 활짝 열어놓고 외출했던 적이 있었다. 집으로 돌아와  여느 때와 다름없이, “밍밍아! 간식 먹자!” 하며 불렀는데 평소라면 집에서 쪼르르 달려 나왔던 밍밍이가 아무리 부르고 건드려봐도 꼼짝하지 않았다. 손으로 들어 올린 순간 밍밍이의 온몸이 굳어있음을 느꼈고 당황한 나는 햄스터의 갑작스러운 죽음에 대해 검색해 보았다.<br>
+					죽음이 아닌, 동면상태 일 수도 있다는 것을 보고 다행히 동면 대처 매뉴얼대로 밍밍이를 구할 수 있었다. 햄스터에게 동면, 즉 겨울잠은 단순한 잠이 아닌 죽음으로 이어질 수 있는 매우 위험한 것이다.<br>여기, 예비 또는 초보 햄찌집사들에게 유용할<br> <span style="font-weight: 900">햄스터 키우기 방법과 다양한 팁</span>들이 있다!</p>
+				</div>
+				<div class="col-2"><img src="img10.gif"></div>
+			</div>
+	</header>
+	<section>
+			<div class="row">
+				<div class="col-4">
+					<img src="img3.jpg">
+					<h2 class="word-spacing">햄스터, 너는 어떤 동물이니?</h2>
+					<p class="word-break word-spacing">애완용 햄스터의 종류로는 크게 <span style="font-weight: 900">골든 햄스터(12∼15cm)</span>와 <span style="font-weight: 900">드워프 햄스터(7~8cm)</span>로 나눌 수 있다.<br>
+					두 종류 다 애완용으로 키우지만, 드워프 햄스터 크기가 더 작고 사람과의 사교성이 좋기에
+					처음 키우는 사람이라면 드워프를 추천한다. 대표적인 애완용 드워프 햄스터로 윈터 화이트, 캠벨 러시안, 로보로브스키, 차이니즈 햄스터 등이 있다. 이 중 로보로브스키는 가족 단위를 구성하여 생활하기 때문에 여러 마리 키우는 것이 가능하고 출산을 고려해야 한다. 
+					또 핸들링이 잘 되지 않는 종류이기 때문에 관상용 햄스터라고 불리기도 한다.</p>
+					<p class="word-break word-spacing">햄스터는 꼬리가 짧고 음식을 저장하는 볼 주머니가 있는 것이 특징이며 앞니가 평생 자라서 항상 이갈이를 마련해 주어야 한다. 야생의 상태에서는 육식 조류가 주된 천적이기 때문에 위에서 들어 올리는 것을 싫어하고, 낮에는 천적과 더위를 피해 굴속에 숨어서 수면을 취하고 주로 저녁에 활동하는 야행성이다. 햄스터는 자신의 영역을 지키며 낯선 상대를 쫓아내기 위해 사정없이 덤벼드는 단독생활을 하기에 두마리 이상의 햄스터를 한 우리에 기르는 것은 옳지 않다. </p>
+				</div>
+			</div>
+	</section>
+	<section>
+			<div lass="row2">
+				<div class="col-5"><a href="https://www.hamsoop.com/" target="_new">햄숲</a></div>
+				<div class="col-5"><a href="http://www.hampong.co.kr/index.html" target="_new">햄퐁</a></div>
+				<div class="col-5"><a href="https://hamtopia.com/" target="_new">햄토피아</a></div>
+			</div>
+			<div class="row">
+				<div class="col-4">
+					<h2 class="word-spacing">햄스터 용품 준비는 미리미리!</h2>
+					<p class="word-break word-spacing h3p">우선 햄스터를 키우기 위해서 절대적으로 필요한 기본 용품들이 있다. 분양받기 전에 미리 준비해 두면 햄스터를 집으로 데려왔을 때, 햄스터와 집사 둘 다 당황하는 일은 없을 것이다.
+					인터넷 쇼핑몰에서 여러 상품들의 후기들을 볼 수 있으니 꼭 참고하자.</p>
+			
+				
+					<h3>1. 리빙박스</h3>
+					<p class="word-break word-spacing h3p">리빙박스는 햄스터 집을 꾸미기 위한 기본중의 기본이다. 높이가 너무 낮아 탈출 위험이 있거나 햄스터가 이빨로 갉을 수 있는 재질은 피해야 한다. 햄스터 용품 쇼핑몰에서 햄스터를 키우고 꺼내기 쉽게 앞문, 윗뚜껑을 개조한 리빙박스를 팔기도 한다.<img src="img4.jpg"></p>
+					<h3>2. 베딩</h3>
+					<p class="word-break word-spacing h3p">땅파는 것을 좋아하는 햄스터를 위해, 그리고 집 온도 유지를 위해 리방박스 안에 베딩을 두둑이 깔아야 한다. 햄스터 마다 좋아하는 베딩의 종류가 다르기 때문에 소량씩 구매해서 테스트 해보는 것을 추천한다.<img src="img5.jpg"></p>
+					<h3>3. 쳇바퀴</h3>
+					<p class="word-break word-spacing h3p">>야생 상태에서 햄스터는 이동량이 최소 5KM에서 6KM이기에 좁은 리빙박스에서 활동을 하려면 필수다. 야행성인 햄스터가 밤에 쳇바퀴를 돌리기에 자신이 소음에 민감하다면 무소음 쳇바퀴를 구매하는 것을 추천한다.<img src="img6.jpg"></p>
+					<h3>4. 화장실과 모래</h3>
+					<p class="word-break word-spacing h3p">집 한편에 화장실을 따로 만들어 화장실용 모래를 2cm 이상 깔아두도록 한다. 설치류들은 보통 화장실을 사용하기 전에 모래를 파는 행동을 하기 때문에, 또 소변을 간편히 청소하기 위해 화장실 모래가 필요하다. 소변으로 뭉친 모래는 자주 청소해 줘야 냄새가 나지 않는다. 모래를 갈아줄 때, 소변으로 인해 뭉친 모래를 한두 개 정도를 넣어주면 햄스터에게 이곳이 화장실이라는 인식을 갖게 할 수 있다.<img src="img7.jpg"></p>
+					<h3>5. 습수기,급식기와 사료</h3>
+					<p class="word-break word-spacing h3p">햄스터가 살아가기에 물과 사료는 기본 중의 기본. 급식기는 작은 그릇 정도면 된다.
+					사료는 gmo/lmo free 제품을 선택하는 것이 좋고, 시중에 판매하는 혼합사료, 식물성 사료, 곡류 사료, 동물성 사료가 있으며
+					보통 혼합사료를 가장 많이 사용한다. 또 햄스터마다 좋아하는 사료의 종류가 다르기 때문에 조금씩 구매하여 테스트해보는 것을 추천한다. 하지만 한가지 사료만 먹을 경우 영양분이 불균형하게 섭취가 되어 각종 질병에 노출될 수 있으니 주의해야 한다. 해바라기씨나 아몬드 등 견과류들은 햄스터들이 좋아하지만 많이 먹으면 비만에 걸리게 되며 비만은 만병의 근원이 된다. 따라서 주 사료로 쓰지 않도록 한다.<img src="img8.jpg"></p>
+				</div>
+			</div>
+	</section>
+	<section>
+			<div class="row">
+				<div class="col-4">					
+					<h2 class="word-spacing">햄스터를 데려오자</h2>
+					<p>햄스터는 대형마트나 햄스터 인터넷 카페 등에서 분양받을 수 있다. 자신이 키울 수 있는 상황인지 충분히 고려한 다음 데려오도록 하자. #햄스터분양 #햄찌분양</p>
+				</div>
+			</div>		
+	</section>
+	<section class="bg-section">
+		<h1 class="text-white word-spacing">현 집사의<br><span style="color:#003300">햄스터</span>키우기 팁</h1></section>
+	<section>	
+			<div class="row">
+				<div class="col-4">
+					<h3 class="word-spacing">먹이면 안 되는 음식</h3>
+							<p class="word-break word-spacing h3p">간이 된 음식이나 향신료가 들어간 음식은 주지 않는 게 좋다. 매운맛이 나는 마늘과 양파, 파,
+							생강 등은 햄스터의 적혈구를 파괴하고, 신맛이 나는 과일은 햄스터의 이빨을 상하게 하므로  
+ 							반드시 피해야 한다. 그리고 복숭아는 알레르기를 일으킬 수 있으니 주의하도록 한다.</p>
+ 					<h3 class="word-spacing text-right">핸들링</h3>
+							<p class="word-break word-spacing h3p text-right">햄스터가 손으로 올라올 수 있게 하는 핸들링을 하기 위해서 우선 햄스터가 좋아하는 간식이 무엇인지 파악한다. 그 간식을 손에 올려 햄스터가 스스로 올라올 수 있을 때까지 기다리고 반복하는 것이 중요하다. 집사의 냄새에 익숙해지도록 장갑이나 옷 등을 집안에 넣어두기도 한다.</p>
+ 					<h3 class="word-spacing">동면</h3>
+							<p class="word-break word-spacing h3p">‘겨울잠’이라고도 하는데, 햄스터의 겨울잠은 죽음으로 이어질 수 있기에 동면에 빠지지 않도록 전기장판을 사용하거나 집 안 온도를 23~26도로 따뜻하게 유지해 줘야 하고 충분히 물과 밥을 줘야 한다. 햄스터가 동면에 빠졌다면 물을 따뜻하게 데워 페트병에 담아 햄스터를 위에 올려두거나 수건에 감싸 드라이기로 살살 바람을 쐬어주고, 뭉친 근육을 살살 주물러 풀어줘야 한다.</p>
+ 					<h3 class="word-spacing text-right">불쾌한 냄새</h3>
+							<p class="word-break word-spacing h3p text-right">햄스터의 냄새로 고통받는 사람들이 있다. 햄스터 자체의 냄새가 아니라 햄스터의 오줌이 악취를 유발하게 되는데, 이것은 주기적인 청소로 해결할 수 있다. 하지만 너무 잦은 청소는 햄스터에게 스트레스를 줄 수 있으니 주의해야 한다.</p>
+ 					<h3 class="word-spacing">집 오래비울시</h3>
+							<p class="word-break word-spacing h3p">명절 때나 피치 못해 집을 오래 비워야 하는 경우, 우선 집을 따뜻이 해주고 햄스터는 자율 급식이 가능하므로 집을 비워야 하는 일수에 맞게 물과 밥을 많이 배분해 둔다. 하지만 평소에도 자율 급식을 하면 비만으로 이어질 수 있으니 주의해야 한다.</p>
+ 					<h3 class="word-spacing text-right">탈출한 햄스터 찾기</h3>
+							<p class="word-break word-spacing h3p text-right">책 등으로 울타리를 만들어 방목을 하다 예기치 못하게 햄스터가 탈출을 하거나, 집 문과 뚜껑이 잘 닫혀있지 않아 햄스터가 탈출하여 찾지 못하는 경우, 우선 집 안의 방문을 전부 닫고 각 공간과 방마다 비닐봉지에 먹이를 넣어 배치한다. 부스럭거리는 소리가 들릴 때까지 기다려 햄스터를 찾거나, 어떤 방의 비닐봉지에 먹이가 없어진 것이 확인된다면 그 방에 햄스터 트랩을 설치한다. <span style="font-weight: 900">햄스터 트랩</span> 설치는 아래 사진을 참고하자.</p><img src="img13.jpg">					
+				</div>
+			</div>
+	</section>
+	<section>
+		<div class="row">
+				<div class="col-4">
+					<h2 class="word-spacing">햄스터 키운지 2년, 느낀점은?</h2>
+					<p class="word-break word-spacing">햄스터는 함께 산책을 할 수 없다는 것과, 수명이 평균 2-3년으로 다른 애완동물에 비해 짧아 오랫동안 함께하지 못한다는 단점이 있다. 하지만 햄스터는 키우는데 비교적 적은 비용이 들고, 잠시 외출을 하게 되더라도 신경 쓰이지 않고, 스스로 씻기 때문에 수고도 덜 수 있다. 그리고 너무너무너무너무너무 귀엽다.</p>
+					<p class="word-break word-spacing h3p">요즘, 인스타나 각종 SNS에서 다양한 애완동물들을 쉽게 볼 수 있다. ‘나만 없어 고양이’라는 말이 생길 정도로 애완동물을 키우는 집사들이 점점 많아져 애완동물이 없는 사람들은 소외감이 느껴지곤 한다. 키우고 싶지만, 경제적 문제, 가족의 반대 등으로 인해 강아지나 고양이 등의 동물을 데려오기 어렵다면, 햄스터 키우기를 고려해보자!
+					작은 햄스터에서 얻을 수 있는 행복은 아주 크고, 그에 따른 책임감도 커야 한다는 것을 명심하자.</p>
+					<p><img src="img14.jpg"></p>
+		</div>
+				</div>	
+	</section>
+	<footer class="bg-bottom text-white"><p>Copyright © im-mh hknu digital publishing class 2020. All Rights Reserved.</p></footer>
+</html>
